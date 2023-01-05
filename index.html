@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Kalam:wght@300;400&family=Pacifico&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Instagram</title>
 </head>
 <body>
     <section>
-        <div>
-            <img src="image/instamainphoto.png" alt="pic of girls on phone mockup">
-        </div>
+        <div class="main-content">
+            <div>
+                <img src="image/instamainphoto.png" alt="pic of girls on phone mockup" class="main-img">
+            </div>
 
-        <div>
-            <form action="">
-                <h1>Instagram</h1>
+            <div class="form-content">
+                <form action="">
+                    <h1>Instagram</h1>
                 
-                <input type="submit" value="Phone number, username or email"> <br>
-                <input type="submit" value="password"> <br>
-                <button type="submit">Log In</button> <br>
-                <p>OR</p>
-                <span>
-                    <a>
-                        <img src="" alt="">
-                        <p>Log In with Facebook</p>
-                    </a>
-                </span>
-                <p>
-                    <a href=""> Forgot Password </a>
-                </p>
-                <p>Don't have an account? 
-                    <span> 
-                        <a href="">Sign up </a>
+                    <input type="submit" value="Phone number, username or email" class="form-input"> <br>
+                    <input type="submit" value="Password" class="form-input"> <br>
+                    <button type="submit"  id="Login-btn">Log In</button> <br>
+                    <p id="or-p">OR</p>
+                    <span >
+                        <a href="" class="linked-all">
+                            <img src="image/fb.png" alt="logo of Facebook" class="small-icon">
+                            <p>Log In with Facebook</p>
+                        </a>
                     </span>
-                </p>
-                <p>Get the app</p>
+                    <p>
+                        <a href="" id="forgot-link"> Forgot Password?</a>
+                    </p>
+                    <p>Don't have an account? 
+                        <span> 
+                            <a href="" id="signup-link">Sign up </a>
+                        </span>
+                    </p>
+                    <p class="appget-link">Get the app</p>
 
-            </form>
+                </form>
+
+
+            </div>
         </div>
     </section>
 </body>
