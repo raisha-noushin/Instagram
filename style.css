@@ -93,3 +93,30 @@ h1{
 #or-p{
     color: gray;
 }
+
+.footer-linker{
+    display: flex;
+    font-size: 13px;
+    margin-left: 17%;
+    margin-right: auto;
+    margin-top: 1%;
+    color: gray;
+}
+
+.footer-link{
+    padding-left: 23px;
+}
+.footer-2{
+    display: flex;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 2%;
+    font-size: 13px;
+    color: gray;
+}
+
+.footer-text{
+    padding-left: 17px;
+}
+
+
