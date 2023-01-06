@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .main-content{
     display: flex;
     margin-left: 13%;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 form{
     border: 1px solid rgb(192, 191, 191);
     border-radius: 5px;
-    padding: 30px 30px;
+    padding: 0px 30px;
     text-align: center;
+    margin-top: 13%;
 }
 
 .main-img{
@@ -26,6 +30,7 @@ form{
     border-radius: 5px;
     text-align: left;
     color: gray;
+    font-size: 12px;
 }
 
 a{
@@ -35,13 +40,13 @@ a{
 h1{
     font-size: 60px;
     font-family: 'Cookie', cursive;
-    color: rgb(66, 66, 66);
+    color: rgb(39, 39, 39);
 
 }
 
 .linked-all{
-    display: flex;
-    padding-left: 35px;
+    display:flex;
+    padding-left: 45px;
     color: #3b5998;
 }
 
@@ -61,26 +66,29 @@ h1{
     border: 1px none;
     border-radius: 7px;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 #signup-link{
-    color: #2ec4ff;
+    color: #05b4fa;
+}
+
+#linked-text{
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin-top: 3%;
+    text-align: center;
 }
 
 #forgot-link{
-    color: black;
+    color: blue;
+    font-size: 13px;
 }
 
-/**
 .appget-link{
-    border: 1px solid rgb(192, 191, 191);
-    border-radius: 5px;
-    padding: 30px 30px;
-    margin-top: 15%;
     text-align: center;
 }
-**/
 
 #or-p{
     color: gray;
